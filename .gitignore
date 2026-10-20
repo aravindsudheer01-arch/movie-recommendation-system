@@ -1,0 +1,19 @@
+# Local/private data, obtained separately from TMDB/Kaggle
+/data/movies.csv
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# macOS/editor
+.DS_Store
+.vscode/
+# Credentials (for future projects too)
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+/data/tmdb_5000_movies.csv
+/data/tmdb_5000_credits.csv
